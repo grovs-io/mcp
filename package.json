@@ -1,7 +1,8 @@
 {
   "name": "@grovs/mcp-server",
+  "mcpName": "io.grovs/mcp",
   "version": "1.0.0",
-  "description": "Grovs MCP Server",
+  "description": "MCP server for managing deep links, attribution, analytics, campaigns, and app configuration on Grovs — an open-source, privacy-first alternative to Branch and AppsFlyer.",
   "type": "module",
   "main": "dist/index.js",
   "engines": {
@@ -24,7 +25,19 @@
     "type": "git",
     "url": "git+https://github.com/grovs-io/mcp.git"
   },
-  "keywords": [],
+  "keywords": [
+    "mcp",
+    "deep-links",
+    "mobile",
+    "analytics",
+    "attribution",
+    "app-links",
+    "universal-links",
+    "mobile-attribution",
+    "tracking-links",
+    "campaigns",
+    "grovs"
+  ],
   "author": "Grovs",
   "license": "MIT",
   "bugs": {

@@ -16,11 +16,20 @@
 
 ---
 
-## What is this?
+## What is Grovs?
 
-This is an [MCP (Model Context Protocol)](https://modelcontextprotocol.io) server that lets AI assistants manage your Grovs deep linking platform. Create links, view analytics, configure redirects, run campaigns — all through natural language.
+[Grovs](https://grovs.io) is an open-source, privacy-first growth platform for mobile apps — a self-hostable alternative to Branch.io and AppsFlyer. It provides:
 
-**Grovs** is a self-hostable deep linking, attribution, and analytics platform for mobile apps. An open-source alternative to Branch.io and AppsFlyer. See the [backend repo](https://github.com/grovs-io/backend) for more.
+- **Deep Linking** — one link that routes users to the right content across iOS, Android, and web. Deferred deep links survive the install flow so users land on the right screen on first open.
+- **Attribution** — deterministic, first-party install and event attribution. No fingerprinting, no data sharing with ad networks.
+- **Revenue Analytics** — in-app purchases, subscriptions, and custom revenue events matched back to the campaign that drove the install.
+- **Campaigns** — group links, track performance, and compare results across channels.
+
+EU-hosted, open-source SDKs, 20M+ daily active users in production. See the [backend repo](https://github.com/grovs-io/backend) for self-hosting.
+
+## What is this MCP server?
+
+This is an [MCP (Model Context Protocol)](https://modelcontextprotocol.io) server that lets AI assistants manage your Grovs platform through natural language. Create deep links, check analytics, configure redirects, run campaigns — without leaving your editor.
 
 ## Quick Start
 
