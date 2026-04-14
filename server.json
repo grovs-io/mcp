@@ -2,8 +2,8 @@
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.grovs/mcp",
   "title": "Grovs",
-  "description": "MCP server for Grovs — an open-source, privacy-first deep linking, attribution, and analytics platform for mobile apps. Create and manage deep links, track installs and revenue, run campaigns, and configure app settings through natural language. An alternative to Branch and AppsFlyer.",
-  "version": "1.0.0",
+  "description": "Manage deep links, attribution, analytics, and campaigns on Grovs — open-source Branch alternative.",
+  "version": "1.0.1",
   "repository": {
     "url": "https://github.com/grovs-io/mcp",
     "source": "github"
@@ -11,7 +11,7 @@
   "websiteUrl": "https://grovs.io",
   "icons": [
     {
-      "url": "https://raw.githubusercontent.com/grovs-io/mcp/main/.github/logo.svg",
+      "src": "https://raw.githubusercontent.com/grovs-io/mcp/main/.github/logo.svg",
       "type": "image/svg+xml"
     }
   ],
