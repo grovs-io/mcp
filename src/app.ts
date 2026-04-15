@@ -1,4 +1,4 @@
-import express from "express";
+import express, { type Express } from "express";
 import type { Request } from "express";
 import { StreamableHTTPServerTransport } from "@modelcontextprotocol/sdk/server/streamableHttp.js";
 import type { AuthInfo } from "@modelcontextprotocol/sdk/server/auth/types.js";
@@ -64,7 +64,7 @@ export { ipRequests as _ipRequests };
 /** Exported for tests — clear to reset token validation cache between test suites. */
 export { tokenCache as _tokenCache };
 
-export function createApp(grovsApiUrl: string, publicUrl: string) {
+export function createApp(grovsApiUrl: string, publicUrl: string): Express {
   const app = express();
   app.use(express.json({ limit: "1mb" }));
 
